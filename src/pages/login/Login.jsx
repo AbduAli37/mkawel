@@ -46,6 +46,11 @@ const Login = () => {
       setLoginLoading(false)
     })
   };
+  let localData= localStorage.getItem('mkawel_data')
+  let adminData=localData&&JSON.parse(localData);
+  if(localStorage.getItem('mkawel_data')){
+    navigate("/")
+  }
   return (
     <div className="login">
       <div className="login_form">

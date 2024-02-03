@@ -11,7 +11,10 @@ function App() {
     <div className="app">
       <Routes>
         {!localStorage?.getItem("mkawel_data") ? (
-          <Route path="*" element={<Login />} />
+          <>
+            <Route path="*" element={<Login />} />
+            <Route path="/login" element={<Login />} />
+          </>
         ) : (
           <>
             <Route path="/" element={<Categories />} />
