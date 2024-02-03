@@ -1,0 +1,44 @@
+.field_input {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px 0;
+  flex-direction: column;
+}
+
+.field_input label {
+  width: 100px;
+  cursor: pointer;
+}
+
+.field_input label img {
+  width: 100%;
+}
+
+.imageViewer,
+.imageViewer > img {
+  width: 150px;
+}
+
+.imageViewer span {
+  position: absolute;
+  top: 0;
+  left: -10%;
+  z-index: 123443;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageViewer span img,
+.imageViewer span {
+  width: 20px;
+  cursor: pointer;
+}
+
+.input_fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: space-between;
+  margin: 12px 0;
+}
