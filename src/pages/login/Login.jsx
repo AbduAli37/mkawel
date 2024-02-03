@@ -58,12 +58,12 @@ const Login = () => {
           e.preventDefault();
           loginFunc()
         }} action="">
-          <img
+          {/* <img
             src={
               "https://res.cloudinary.com/duovxefh6/image/upload/v1700918823/Screenshot_2023-11-25_152447-removebg-preview_wfmkrf.png"
             }
             alt=""
-          />
+          /> */}
           <input
             onChange={(e) => {
               setLoginData({ ...loginData, email: e.target.value });
