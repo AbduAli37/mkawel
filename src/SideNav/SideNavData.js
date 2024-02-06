@@ -28,7 +28,15 @@ export const SideNavData = [
     path: "/",
     label: "الفئات",
     icon: categories,
-    // icon:<IoMdNotifications/>
-    // icon:<aioutlien
+  },
+  {
+    path: "/companies",
+    label: "الشركات",
+    icon: categories,
+  },
+  {
+    path: "/contructores",
+    label: "المقاوليين",
+    icon: categories,
   },
 ];
